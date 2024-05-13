@@ -1,5 +1,18 @@
 #!/bin/bash
 
+#  Name: Shane Easo
+#  Project Type: Fun side project :)))
+#  Email: shane.easo@ucdconnect.ie
+# 
+#  Project: Bash Factorial Calculator
+#  Description: This was a side project I wrote while in my Unix Programming module COMP20200.
+#  It involves providing a number in a terminal command line and a shell script will compute the
+#  factorial of the given number. There is border formatting included to improve aesthetics!
+
+#  Date: 21/04/24
+#  Compile and Run: chmod chmod +x factorialCalculator.sh && ./factorialCalculator.sh <int: 5>
+#  Usage: ./factorialCalculator
+
 getFactorial() { # computes factorial
     local num=$1 # inner scope
     factorial=1 # global variable
